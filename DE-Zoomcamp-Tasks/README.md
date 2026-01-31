@@ -1,11 +1,10 @@
-```markdown
 # DE-ZoomCamp Tasks
 
 ## Overview
 This repository contains solutions to the Module 1 tasks of the Data Engineering Zoomcamp (DE-ZoomCamp). The tasks cover Docker usage, PostgreSQL networking, SQL queries on NYC taxi trip data, and basic Terraform commands.
 
 ---
-
+```markdown
 ## Module 1
 
 ### Q1: Docker & pip Version
