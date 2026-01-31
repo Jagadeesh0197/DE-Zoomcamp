@@ -19,10 +19,14 @@ The variable `file` is defined in a templated context (e.g., in a workflow like 
 <img width="410" height="99" alt="image" src="https://github.com/user-attachments/assets/a0b033f1-ee39-43f3-a274-ca73afe4275a" />
 
 ### Q5: How many rows are there for the Yellow Taxi data for the March 2021 CSV file?
-**Answer:** 
+**Answer:** 1,925,152
+<img width="379" height="95" alt="image" src="https://github.com/user-attachments/assets/f9e171eb-a707-4da0-b60b-f0d71f242726" />
 
 ### Q5: How would you configure the timezone to New York in a Schedule trigger?
 **Answer:** Add a `timezone` property set to `America/New_York` in the `Schedule` trigger configuration
+<img width="422" height="148" alt="image" src="https://github.com/user-attachments/assets/7d453424-0b53-4db7-a5fa-fe50367b97b9" />
+
+
 
 
 
