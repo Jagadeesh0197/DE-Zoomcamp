@@ -1,0 +1,37 @@
+taxi_rides_ny:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /home/reddy/DE-Zoomcamp/4.Anaytics-Engineer/taxi_rides_ny/taxi_rides_ny.duckdb
+      schema: prod
+      threads: 4
+      timeout_seconds: 300
+
+ny_taxi:
+  outputs:
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: prod.duckdb
+      threads: 4
+
+  target: dev
+
+ny:
+  outputs:
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: prod.duckdb
+      threads: 4
+
+  target: dev

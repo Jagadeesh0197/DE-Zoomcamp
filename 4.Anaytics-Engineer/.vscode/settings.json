@@ -1,0 +1,22 @@
+{
+    "workbench.editorAssociations": {
+        "*.parquet": "duckdb.dataFileViewer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer"
+    },
+    "duckdb.databases": [
+        {
+            "alias": "4.Anaytics-Engineer",
+            "type": "file",
+            "path": "c:\\Users\\ADMIN-PC\\OneDrive\\Documents\\4.Anaytics-Engineer.duckdb",
+            "attached": true
+        },
+        {
+            "alias": "taxi_rides_ny",
+            "type": "file",
+            "path": "\\\\wsl.localhost\\Ubuntu\\home\\reddy\\DE-Zoomcamp\\4.Anaytics-Engineer\\taxi_rides_ny\\taxi_rides_ny.duckdb",
+            "attached": true
+        }
+    ],
+    "duckdb.defaultDatabase": "taxi_rides_ny"
+}
