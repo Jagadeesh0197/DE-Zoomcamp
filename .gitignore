@@ -208,3 +208,4 @@ __marimo__/
 *.parquet
 *f7a5b.json
 *.csv.gz
+*.csv
